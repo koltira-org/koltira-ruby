@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    koltira (0.1.0)
+    koltira (0.2.0)
       activemodel (~> 7)
 
 GEM
