@@ -52,12 +52,12 @@ module Koltira
         @data[key] = value
       end
 
-      def to_json
-        @data.to_json
+      def to_json(*args)
+        @data.to_json(*args)
       end
 
       def as_json(*args)
-        @data.as_json
+        @data.as_json(*args)
       end
     end
   end

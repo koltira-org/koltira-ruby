@@ -16,6 +16,10 @@ module Koltira
       @data[key] = value
     end
 
+    def reset!
+      @data = {}
+    end
+
     def dup
       new(@data.dup)
     end

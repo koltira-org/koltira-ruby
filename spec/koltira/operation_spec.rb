@@ -36,7 +36,7 @@ RSpec.describe Koltira::Operation do
 
     context = Koltira::Context.new('foo' => 'bar')
     operation = FooOperation.new(context)
-    output = operation.call('input' => 'hello world')
+    operation.call('input' => 'hello world')
     expect(context['hello']).to eq('world')
   end
 end
